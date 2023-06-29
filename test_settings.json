@@ -1,0 +1,18 @@
+{
+  "project_name": "test_lpips_sf1_crf32",
+  "batch_size": 1,
+  "result_folder": "MBRS256_m256_dw10_Combined((JpegTwice((10,90))))__2023_03_06__11_18_51/",
+  "model_epoch": 97,
+  "with_diffusion": false,
+  "strength_factor": 1,
+  "dataset_path": "datasets/",
+  "H": 256,
+  "W": 256,
+  "message_length": 256,
+  "save_images_number": 4,
+  "noise_layers": [
+    "Combined([SP(0.9)])"
+  ],
+  "crf": 32,
+  "interval": 30
+}

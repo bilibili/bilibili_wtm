@@ -1,0 +1,10 @@
+torch>=1.10
+torchvision
+numpy
+Pillow
+kornia==0.6.8
+loguru
+av
+tensorboard
+lpips
+scikit-learn==1.0.2

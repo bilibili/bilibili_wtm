@@ -1,0 +1,32 @@
+{
+  "project_name": "psnr_tar40_jpgx2",
+  "with_diffusion": false,
+  "only_decoder": false,
+  "epoch_number": 101,
+  "batch_size": 10,
+  "dataset_path": "datasets/",
+  "save_images_number": 4,
+  "H": 256,
+  "W": 256,
+  "message_length": 256,
+  "H_val": 256,
+  "W_val": 256,
+  "message_length_val": 256,
+  "val_path": "results/combine5_valid_continous",
+  "encoder_weight": 0.05,
+  "decoder_weight": 10,
+  "discriminator_weight": 0.0001,
+  "which_enloss": "psnr",
+  "fix_value": 40,
+  "grad_weigthed": null,
+  "target_decoder": null,
+  "lr": 1e-3,
+  "noise_layers": [
+    "Combined([JpegTwice([10,90])])"
+  ],
+  "num_workers": 4,
+  "shift_crf_valid": false,
+  "encoder_arch": "Encoder_MP",
+  "decoder_arch": "Decoder",
+  "valid_crf": true
+}
